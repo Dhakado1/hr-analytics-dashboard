@@ -1,18 +1,25 @@
 # HR Analytics & Employee Attrition Prediction System
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey?logo=flask)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikit-learn)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A complete Machine Learning and Flask-based web application for analyzing human resource metrics, forecasting employee attrition risk, and delivering actionable retention insights.
 
-## Overview
+---
+
+## 📌 Overview
 
 This project analyzes the IBM HR Analytics Employee Attrition dataset to identify factors driving employee turnover and provides:
 - **Interactive Web Dashboard**: Executive overview, KPI scorecards, risk explorer, and retention scenario simulator.
 - **Attrition Risk Predictor**: Real-time prediction tool based on machine learning models.
-- **Exploratory Data Analysis**: Jupyter notebooks detailing data preparation, exploratory visualization, statistical testing, and model comparison.
+- **Exploratory Data Analysis (EDA)**: Jupyter notebooks detailing data preparation, exploratory visualization, statistical testing, and model comparison.
 - **Model Evaluation**: Comparison between Logistic Regression, Random Forest, and Gradient Boosting classifiers.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 ├── CODE/
@@ -35,55 +42,3 @@ This project analyzes the IBM HR Analytics Employee Attrition dataset to identif
 ├── app.py                              # Flask application backend
 ├── train_model.py                      # Standalone training script
 └── requirements.txt                    # Project dependencies
-```
-
----
-
-## Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/PriyaMeena12/HR-analytic-system.git
-cd HR-analytic-system
-```
-
-### 2. Create and Activate a Virtual Environment
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Train the Model (Optional)
-To retrain the ML models and refresh saved weights:
-```bash
-python train_model.py
-```
-
-### 5. Run the Application
-```bash
-python app.py
-```
-Open [http://localhost:5000](http://localhost:5000) in your browser.
-
----
-
-## Tech Stack
-- **Backend**: Python, Flask
-- **Machine Learning**: Scikit-Learn, Pandas, NumPy, Joblib
-- **Frontend**: HTML5, CSS3, JavaScript, Chart.js
-- **Analysis**: Jupyter Notebooks, Seaborn, Matplotlib
-
----
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
